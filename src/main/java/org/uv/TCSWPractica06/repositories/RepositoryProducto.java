@@ -5,13 +5,13 @@
 package org.uv.TCSWPractica06.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.uv.TCSWPractica06.entities.Productos;
+import org.uv.TCSWPractica06.entities.Producto;
 
 /**
  *
  * @author meli
  */
 
-public interface RepositoryProducto extends JpaRepository<Productos, Long> {
+public interface RepositoryProducto extends JpaRepository<Producto, Long> {
 
 }

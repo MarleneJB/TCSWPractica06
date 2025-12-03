@@ -20,8 +20,8 @@ import javax.persistence.Table;
  */
 
 @Entity
-@Table(name = "Productos")
-public class Productos implements Serializable {
+@Table(name = "Producto")
+public class Producto implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "producto_seq")

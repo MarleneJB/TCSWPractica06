@@ -38,7 +38,7 @@ public class DetalleVenta implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "producto_id")
-    private Productos producto;
+    private Producto producto;
 
     @Column
     @JsonIgnore
@@ -67,11 +67,11 @@ public class DetalleVenta implements Serializable {
         this.venta = venta;
     }
 
-    public Productos getProducto() {
+    public Producto getProducto() {
         return producto;
     }
 
-    public void setProducto(Productos producto) {
+    public void setProducto(Producto producto) {
         this.producto = producto;
     }
 
