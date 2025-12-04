@@ -41,14 +41,12 @@ public class DetalleVenta implements Serializable {
     private Producto producto;
 
     @Column
-    @JsonIgnore
     private String descripcion;
 
     @Column
     private Integer cantidad;
 
     @Column
-    @JsonIgnore
     private BigDecimal precio;
 
     public Long getId() {
